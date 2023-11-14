@@ -7,5 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 1 : Installation</title>
+      <link>https://example.org/hugo/</link>
+      <pubDate>Tue, 14 Nov 2023 15:06:25 +0100</pubDate>
+      <guid>https://example.org/hugo/</guid>
+      <description>Chapitre 1: Installation Objectif Le but de ce premier chapitre est de comprendre en détail le processus d&amp;rsquo;installation de Hugo, le framework de site statique. Une fois cette étape franchie, vous serez prêt à plonger dans les subtilités du développement de sites statiques.
+Installation de Hugo Pour débuter avec Hugo, suivez attentivement ces étapes d&amp;rsquo;installation :
+Téléchargement de Hugo : Rendez-vous sur le site officiel de Hugo à l&amp;rsquo;adresse https://gohugo.io/ et téléchargez la version de Hugo adaptée à votre système d&amp;rsquo;exploitation.</description>
+    </item>
+    <item>
+      <title>À propos</title>
+      <link>https://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/about/</guid>
+      <description>Notre Mission Notre mission est de vous guider à travers les méandres du framework Hugo, en vous fournissant des ressources éducatives de qualité qui vous permettront de maîtriser cet outil puissant. Que vous soyez un débutant cherchant à comprendre les bases ou un développeur expérimenté cherchant à affiner ses compétences, ce cours a été conçu pour répondre à tous les niveaux.
+Ce Que Vous Apprendrez Au fil de ce cours, vous explorerez les aspects fondamentaux de Hugo, depuis l&amp;rsquo;installation initiale jusqu&amp;rsquo;à la personnalisation avancée de vos sites statiques.</description>
+    </item>
   </channel>
 </rss>

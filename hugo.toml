@@ -1,4 +1,12 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'fr-fr'
+title = 'Benoît Favrie'
 theme = 'ananke'
+
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/beno%C3%AEt-favrie-44a37a203/"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/benoitfvr"

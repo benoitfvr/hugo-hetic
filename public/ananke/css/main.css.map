@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/benoitfavrie/Documents/projects/quickstart",
+	"sourceRoot": "/Users/benoitfavrie/Documents/projects/hugo-hetic",
 	"sources": [
 		"ananke/css/main.css"
 	],
