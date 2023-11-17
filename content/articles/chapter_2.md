@@ -1,32 +1,38 @@
 +++
-title = '2. Publier son projet sur Github Pages'
-date = 2023-11-14T16:40:20+01:00
+title = '2. Personnalisation et Customisation de votre Thème Hugo'
+date = 2023-11-15T10:00:00+01:00
 draft = false
 +++
 
+Après avoir installé Hugo et créé votre site, l'étape suivante est de donner à votre blog une apparence unique qui reflète votre style personnel. Dans cet article, je vais vous montrer comment personnaliser et customiser le thème que vous avez choisi pour votre blog Hugo.
 
-# Étape 1: Configuration de GitHub
+# Étape 1: Personnalisation de Base
 
-Si vous n'avez pas de compte GitHub, créez-en un sur GitHub. Ensuite, créez un nouveau dépôt. Le nom de ce dépôt doit être votre_nom_utilisateur.github.io.
+La plupart des thèmes Hugo sont hautement configurables. Vous pouvez commencer par modifier le fichier config.toml (ou config.yaml, selon le thème) de votre site. Ce fichier contrôle des aspects tels que :
 
-# Étape 2: Publication sur GitHub Pages
+- Le titre et la description du blog
+- Les paramètres des menus
+- Les couleurs et la police
+- Les paramètres des réseaux sociaux
 
-Pour publier votre site, vous devez d'abord générer les fichiers statiques. Dans votre terminal, naviguez vers le dossier de votre site et exécutez :
+# Étape 2: Modification du CSS
 
-```
-hugo
-```
-Cela générera un dossier public contenant votre site. Vous devez maintenant pousser ce dossier sur GitHub.
+Pour des changements plus avancés, comme ajuster la mise en page ou les styles de police, vous pouvez modifier les fichiers CSS du thème. Trouvez le fichier CSS principal dans le dossier du thème et apportez vos modifications. N'oubliez pas de faire des sauvegardes avant toute modification.
 
-```
-cd public
-git init
-git remote add origin https://github.com/votre_nom_utilisateur/votre_nom_utilisateur.github.io.git
-git add .
-git commit -m "Premier déploiement"
-git push -u origin master
-```
+# Étape 3: Ajout de Fonctionnalités
+
+Certains thèmes permettent l'ajout de fonctionnalités supplémentaires telles que :
+
+- Un carrousel d'images
+- Des intégrations de réseaux sociaux
+- Des formulaires de contact
+
+Consultez la documentation de votre thème pour plus d'informations sur l'ajout de ces fonctionnalités.
+
+# Étape 4: Tester Votre Site
+
+Avant de déployer votre site, exécutez-le localement en utilisant la commande hugo server pour vérifier que tout fonctionne comme prévu.
 
 # Conclusion
 
-Félicitations, votre blog est maintenant en ligne sur https://votre_nom_utilisateur.github.io! Hugo combiné à GitHub Pages offre une solution simple et efficace pour lancer un blog. Bonne écriture et publication !
+La personnalisation de votre thème Hugo est un moyen excellent pour faire ressortir votre blog. Avec quelques ajustements et un peu de créativité, vous pouvez créer un site qui non seulement est fonctionnel, mais qui reflète également votre personnalité unique.

@@ -1,7 +1,11 @@
 baseURL = 'https://example.org/'
-languageCode = 'fr-fr'
+languageCode = 'fr-FR'
 title = 'Benoît Favrie'
 theme = 'ananke'
+featured_image = '/images/forest.jpg'
+DefaultContentLanguage = "fr"
+SectionPagesMenu = "main"
+enableRobotsTXT = true
 
 [[params.ananke_socials]]
 name = "linkedin"
